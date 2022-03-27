@@ -7,7 +7,7 @@ public class MainMaquinaA {
         System.out.println("Nombre del perro: " + miPerro.getNombre());
         miPerro.ladrar();
         System.out.format(
-                "Responde al nombre de %s: %b", nombre, miPerro.respondeA(nombre)
+                "Responde al nombre de %s: %b\n", nombre, miPerro.respondeA(nombre)
         );
     }
     
