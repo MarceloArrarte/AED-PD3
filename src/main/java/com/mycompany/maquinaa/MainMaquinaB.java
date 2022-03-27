@@ -18,5 +18,12 @@ public class MainMaquinaB {
         System.out.format(
                 "Responde al nombre de %s: %b\n", nombrePerro, miPerro.respondeA(nombrePerro)
         );
+        
+        miGato.correr();
+        miPerro.correr();
+        miGato.caminar();
+        miPerro.caminar();
+        miGato.saltar();
+        miPerro.saltar();
     }
 }
