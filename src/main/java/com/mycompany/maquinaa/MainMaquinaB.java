@@ -19,11 +19,12 @@ public class MainMaquinaB {
                 "Responde al nombre de %s: %b\n", nombrePerro, miPerro.respondeA(nombrePerro)
         );
         
-        miGato.correr();
-        miPerro.correr();
         miGato.caminar();
-        miPerro.caminar();
+        miGato.correr();
         miGato.saltar();
+        
+        miPerro.caminar();
+        miPerro.correr();
         miPerro.saltar();
     }
 }
